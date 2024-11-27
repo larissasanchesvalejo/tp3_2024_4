@@ -1,25 +1,38 @@
-# Exercicio
-"""
-Os dicionários em Python são estruturas de dados que armazenam pares de chave-valor. Eles são bastante utilizados devido à sua flexibilidade e eficiência na busca de valores associados a uma chave específica. 
-Sobre o funcionamento e as características dos dicionários em Python, responda às perguntas abaixo:
-"""
-
 # 1) O que é um dicionário em Python e qual a sua principal utilização?
 """
-Escreva sua resposta
+Um dicionário em Python é uma estrutura de dados que armazena pares de chave-valor. Ele é usado para associar valores a chaves únicas, permitindo acesso rápido e eficiente aos dados.
 """
 
 # 2) Como você pode adicionar um novo par chave-valor a um dicionário existente? Dê um exemplo de código.
 """
-Escreva sua resposta
+Para adicionar um novo par chave-valor a um dicionário, basta usar a sintaxe de atribuição com uma nova chave.
+
+Exemplo:
+aluno = {"nome": "João", "idade": 20}
+aluno["curso"] = "Engenharia de Software"
 """
 
 # 3) Como você pode remover um item de um dicionário? Explique a diferença entre o método del e o método pop().
 """
-Escreva sua resposta
+O método del remove um par chave-valor do dicionário sem retornar o valor associado. Já o método pop() também remove o item, mas retorna o valor associado à chave removida.
+
+Exemplo com del:
+aluno = {"nome": "João", "idade": 20, "curso": "Engenharia"}
+del aluno["curso"]
+
+Exemplo com pop():
+aluno = {"nome": "João", "idade": 20, "curso": "Engenharia"}
+curso_removido = aluno.pop("curso")
 """
 
 # 4) Quais são algumas das principais operações que você pode realizar com dicionários, como acesso a valores, verificação de chaves, etc.?
 """
-Escreva sua resposta
+- Acessar um valor: aluno["nome"]
+- Verificar se uma chave existe: "nome" in aluno
+- Obter todas as chaves: aluno.keys()
+- Obter todos os valores: aluno.values()
+- Iterar sobre pares chave-valor:
+  for chave, valor in aluno.items():
+      print(chave, valor)
+- Atualizar o dicionário: aluno.update({"curso": "Engenharia"})
 """
