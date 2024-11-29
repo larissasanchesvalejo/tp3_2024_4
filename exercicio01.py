@@ -2,7 +2,7 @@
 """
 Os dicionários em Python são estruturas de dados que armazenam pares de chave-valor. Eles são bastante utilizados devido à sua flexibilidade e eficiência na busca de valores associados a uma chave específica. 
 Sobre o funcionamento e as características dos dicionários em Python, responda às perguntas abaixo:
-"""
+"""========
 
 # 1) O que é um dicionário em Python e qual a sua principal utilização?
 """
